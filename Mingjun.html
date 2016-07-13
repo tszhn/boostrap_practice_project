@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Wiredeiki App </title>
+    <meta name="description" content="Wiredwiki App">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <style>
+        /*
+        *{
+            border: 1px dashed black;   
+        }
+        */
+
+        body{
+            height:100%;
+        }
+        html{
+            height:100%;
+        }
+        .jumbotron {
+            height:100%;
+            background-image: url(jumbotron_pic1.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .jumbotron .container h1{
+            padding-top: 210px;
+            color: white;
+        }
+
+
+        .jumbotron .container p{
+            color: #515151;
+        }
+
+
+        .jumbotron .container .btn{
+            color: white;
+            margin-top: 40px;
+
+        }
+
+        #feedback{
+            background-image: url(feedback_pic_sizefixed.jpg);
+            height:100%;
+            background-repeat: no-repeat;
+            margin-top: 30px;
+
+        }
+
+        #feedback .container .row{
+            margin-top: 250px;
+
+        }
+
+        #feedback1, #feedback2, #feedback3{
+            background: rgba(500, 500, 500, 0.6);
+            font-family: Georgia, serif;
+            font-size: 18px;
+        }
+
+
+        #features_row{
+            margin-top: 250px;
+
+        }
+
+        #address{
+            font-size:18px;
+
+        }
+
+
+        #check{
+            border: 1px dashed red;
+        }
+
+        #check2{
+            border: 1px dashed green;
+        }
+        #check3{
+
+            border: 1px dashed blue;
+        }
+
+        #move_to_right{
+            margin-right: -50px;
+        }
+    </style>
+
+</head> 
+
+
+<body data-spy="scroll" data-target="#my-navbar"> <!--Data spy is for, when you scroll down, the nav bar is going to active the part that you are seeing on the web page -- >
+
+<!-- Navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a href="" class="navbar-brand">Wiredwiki</a>
+
+            </div><!--Navbar Header-->
+
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+
+            <a href="#contact" class="btn btn-info navbar-btn navbar-right">Contact Us</a>
+                <ul class="nav navbar-nav">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#feedback">Feedback</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div><!--End Container -->
+    </nav>
+<!--End Navbar -->
+
+<!-- jumbotron-->
+    <div class="jumbotron">
+        <div class="container text-center">
+            <h1>No Credit Check, Easy, Fast</h1>
+            <p>No credit check, quick, up to $10,000</p>
+
+            <a href="#contact" class="btn btn-lg btn-info">Get Started</a>
+
+
+        </div><!--End of container-->
+    </div>
+<!--End of jumbotron-->
+
+<!--Features -->
+    <div class="container"  id="features">
+        <section>
+            <div class="page-header">
+                <h2>Features<small>Check out the Awsome Features of this app!</small></h2>
+            </div><!-- End of Page Header-->
+
+
+            <div class="row" id="features_row">
+                <div class="col-sm-4">
+                    <div class="panel panel-default text-center">
+                        <div class="panel-body">
+                            <span class="glyphicon glyphicon-star"></span>
+                            <h4>This is the Heading</h4>
+                            <p>This is dummy text. TThis is dummy text.This is dummy text.This is dummy text.This is dummy text.This is dummy text.his is dummy text.This is dummy text.This is dummy text.This is dummy text.This is dummy text.This is dummy text.This is dummy text.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel panel-default text-center">
+                        <div class="panel-body">
+                            <span class="glyphicon glyphicon-ok"></span>
+                            <h4>This is the Heading</h4>
+                            <p>This is dummy text. TThis is dummy text.This is dummy text.This is dummy text.This is dummy text.This is dummy text.his is dummy text.This is dummy text.This is dummy text.This is dummy text.This is dummy text.This is dummy text.This is dummy text.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel panel-default text-center">
+                        <div class="panel-body">
+                            <span class="glyphicon glyphicon-qrcode"></span>
+                            <h4>This is the Heading</h4>
+                            <p>This is dummy text. TThis is dummy text.This is dummy text.This is dummy text.This is dummy text.This is dummy text.his is dummy text.This is dummy text.This is dummy text.This is dummy text.This is dummy text.This is dummy text.This is dummy text.</p>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- End of row-->
+
+        </section>
+    </div><!-- End of container-->
+<!-- End of Features-->
+
+<!--Feedback-->
+    <div id="feedback">
+        <div class="container">
+            <section>
+                <div class="page-header">
+                <h2>Feedback<small>Check out the Awsome Feedback!</small></h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="col-sm-12" id="feedback1">
+                            <div class="panel-body">
+                                <p>This is just some dummy text. Ignore it.This is just some dummy text. Ignore it.This is just some dummy text. Ignore it.
+                                </p>
+                                <footer>-Kevin Ng</footer>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="col-sm-12" id="feedback2">
+                            <div class="panel-body">
+                                <p>This is just some dummy text. Ignore it.This is just some dummy text. Ignore it.This is just some dummy text. Ignore it.
+                                </p>
+                                <footer>-Kevin Ng</footer>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="col-sm-12" id="feedback3">
+                            <div class="panel-body">
+                                <p>This is just some dummy text. Ignore it.This is just some dummy text. Ignore it.This is just some dummy text. Ignore it.
+                                </p>
+                                <footer>-Kevin Ng</footer>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--End of the row-->
+            </section>
+        </div><!--End of container-->
+    </div><!--End of div-->
+
+<!--End of Feedback-->
+
+<!-- Contact-->
+    <div class="container" id="contact">
+        <section>
+            <div class="page-header">
+                <h2>Contact Us.<small> Contact us for more.</small></h2>
+            </div><!-- End of Page Header-->
+
+            <div class="row">
+                <div class="col-sm-6 text-center">
+                    </br>
+                    </br>
+                    </br>
+                    <address id="address">
+                        <strong>Wiredwiki Pvt Ltd.</strong></br>
+                        111, Malviya nagar </br>
+                        Plot no.45 </br>
+                        <br>
+                        <strong>Tel: (999) 999 9999</strong></br>
+                        <strong>Email: aaaaaaa@gmail.com</strong>
+                    </address>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <img src="qr_code_resize.jpg">
+                </div><!--End of 8 col-->
+            </div><!-- End of row-->
+        </section>
+    </div><!--End of container-->
+<!--End of Contact-->
+
+<!--footer-->
+    <footer>
+        <div class="container text-center" id="check">
+
+            <ul class="list-inline">
+                <li><a href="http://twitter.com">Twitter</a></li>
+                <li><a href="http://instagram.com">Instagram</a></li>
+                <li><a href="http://facebook.com">Facebook</a></li>
+            </ul>
+
+            <p>&copy;Copyright @ 2016</p>
+        </div><!--End of container-->
+    </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script>
+
+    function Scroll(){
+        var top = document.getElementById('my-navbar');
+        var typos = window.pageYOffset;
+
+        if(typos > 500){
+            top.style.display = 'initial';
+
+        }
+        else{
+            top.style.display = 'none';
+
+        }
+    }
+
+    window.addEventListener("scroll",Scroll);
+  </script>
+
+</body> 
+</html>x
